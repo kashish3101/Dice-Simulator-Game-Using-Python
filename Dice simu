@@ -1,0 +1,9 @@
+import random
+repeat=True
+while repeat:
+    print(random.randint(1,6))
+    onemoreroll=input("Want to roll the dice again ? (y/n)")
+    if(onemoreroll.lower()=='y'):
+     continue
+    else:
+        break
